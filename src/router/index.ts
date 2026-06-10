@@ -141,6 +141,15 @@ const routes: Array<RouteRecordRaw> = [
           title: "GSAP",
         },
       },
+      {
+        path: "shandong-map",
+        name: "ShandongMap",
+        component: () => import("../views/ShandongMap/index.vue"),
+        meta: {
+          title: "山东地图",
+          requiresAuth: true,
+        },
+      },
     ],
   },
   // 匹配所有未定义路由重定向到首页

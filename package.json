@@ -11,6 +11,7 @@
   "dependencies": {
     "@vueup/vue-quill": "^1.2.0",
     "dplayer": "^1.27.1",
+    "echarts": "^6.1.0",
     "highlight.js": "^11.11.1",
     "hls.js": "^1.6.15",
     "marked": "^18.0.2",
