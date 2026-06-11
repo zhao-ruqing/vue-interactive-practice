@@ -150,6 +150,15 @@ const routes: Array<RouteRecordRaw> = [
           requiresAuth: true,
         },
       },
+      {
+        path: "heart-rate",
+        name: "HeartRate",
+        component: () => import("../views/HeartRate/index.vue"),
+        meta: {
+          title: "心率监测",
+          requiresAuth: true,
+        },
+      },
     ],
   },
   // 匹配所有未定义路由重定向到首页
